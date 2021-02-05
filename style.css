@@ -1,0 +1,31 @@
+*{
+    margin:10px;
+    padding: 0;
+}
+body{
+    display: grid;
+    grid-template-columns: repeat( 3, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+.country{
+    background-color: lightgrey;
+    height: 200px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 10px;
+    border: 1px solid rgb(122, 118, 118);
+}
+.country h1{
+    padding: 20px;
+}
+button{
+    background-color: limegreen;
+    padding: 10px;
+    border-radius: 10px;
+    border: 0;
+}
+#country-details{
+    display: none;
+    height: 300px;
+}
